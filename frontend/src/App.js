@@ -66,7 +66,7 @@ initializeApp()
 // const token = checkAuth()
 const token = localStorage.getItem("token")
 
-axios.defaults.baseURL = "http://localhost:5000/";
+axios.defaults.baseURL = "https://deploy-two-admin.onrender.com/";
 axios.defaults.withCredentials = true;
 
 
